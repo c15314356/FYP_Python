@@ -21,15 +21,16 @@ dataset = pd.read_csv(dataset_location, header=None)
 Structure of dataframe
 Crime ID    0
 Month	 1
-Reported by	Falls within	2
-Longitude	 3
-Latitude	 4
-Location	 5
-LSOA code	 6
-LSOA name	 7
-Crime type	 8
-Last outcome category	 9
-Context	    10
+Reported by	2
+Falls within	3
+Longitude	 4
+Latitude	 5
+Location	 6
+LSOA code	 7
+LSOA name	 8
+Crime type	 9
+Last outcome category	 10
+Context	    11
 '''
 
 def create_and_run_query():

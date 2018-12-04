@@ -1,0 +1,13 @@
+,count,unique,top,freq
+Crime ID,355,355,83d1337218524805185208802f0de2ef1c3cbc841291003e26a5856b21c2a8a0,1
+Month,484,2,2017-01,483
+Reported by,484,2,City of London Police,483
+Falls within,484,2,City of London Police,483
+Longitude,470,215,-0.079786,26
+Latitude,470,214,51.517576,26
+Location,484,163,On or near Police Station,27
+LSOA code,470,14,E01032739,314
+LSOA name,470,14,City of London 001F,314
+Crime type,484,15,Anti-social behaviour,129
+Last outcome category,355,20,Investigation complete; no suspect identified,196
+Context,1,1,Context,1
