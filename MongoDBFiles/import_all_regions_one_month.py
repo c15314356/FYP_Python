@@ -1,7 +1,5 @@
-import logging
 import pandas as pd
 import pymongo
-import math
 import os
 
 FILEPATH = './data/2018-11/'
@@ -9,13 +7,10 @@ FILEPATH = './data/2018-11/'
 '''
 MONGODB CONNECTION
 '''
-#Creation of Mongodb Client
+#Creation of Mongodb Client.
 client = pymongo.MongoClient("localhost", 27017)
-#creates + connects to GameOfThronesCollection
+#creates + connects to CrimeExplorerDB.
 db = client.CrimeExplorerDB
-
-dataset_location = FILEPATH + '2018-11-wiltshire-street.csv'
-dataset = pd.read_csv(dataset_location, header=None)
 
 '''
 METHODS
@@ -57,6 +52,7 @@ def create_and_run_query(dataset, lastid, filename):
         i += 1
     print('Import succeeded')
     return i
+
 
 def get_all_files_and_store_in_db():
     lastid = 0
