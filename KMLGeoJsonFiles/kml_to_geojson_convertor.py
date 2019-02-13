@@ -3,7 +3,7 @@ import os
 from pprint import pprint
 
 FILEPATH = './OriginalData/SemiConvertedData/'
-NEWFILEPATH = './ConvertedGeoJsonFIlesMapboxFormat/'
+NEWFILEPATH = './ConvertedGeoJsonFilesMapboxFormat/'
 
 # File format.
 # pprint(data['features'][0]['geometry']['coordinates'][0][0]
