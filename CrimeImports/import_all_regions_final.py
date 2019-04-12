@@ -3,7 +3,7 @@ import pymongo
 import math
 import os
 
-FILEPATH = './data/2015-2018'
+FILEPATH = '/data/2015/'
 
 '''
 MONGODB CONNECTION
@@ -50,9 +50,9 @@ def create_and_run_query(dataset, lastid, file_name):
                     'crime_date': str(row[1])
                 }
             })
-            print('Executed insert. Current ID = {}  Current dataset = {}'.format(i, file_name))
+            # print('Executed insert. Current ID = {}  Current dataset = {}'.format(i, file_name))
         i += 1
-    print('Import succeeded')
+    print('Import succeeded Added {} Records Current dataset = {}'.format(i, file_name))
     return i
 
 
